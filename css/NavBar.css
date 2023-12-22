@@ -5,14 +5,16 @@ nav{  color: white; border-bottom: 1px;border-color: #33333380;border-style: sol
   }
   
   .flex-container h2 {
-    inline-size: 10%; }
+    inline-size: 10%; 
+    margin-bottom: 10%;
+    text-align: center;
+    margin-right:100% ;
+}
 
   .flex-container img {
     inline-size: 10%; 
 }
-  .box img{
-    height: 10%; width: 10%;
-}
+ 
 nav h1{
     margin:0%
 }
