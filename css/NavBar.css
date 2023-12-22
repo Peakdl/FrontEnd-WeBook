@@ -42,8 +42,11 @@ text-decoration: none;
 padding: 15px;
 display: block;
 text-align: center;
+padding-top: 30px;
 }
 nav a:hover{
     color:hsl(0, 0%, 100%);
+    cursor: pointer;
   }
 main{margin: 20px;}
+nav img{height: 75px; width: auto; }
