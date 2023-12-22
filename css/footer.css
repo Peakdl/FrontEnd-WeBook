@@ -1,0 +1,9 @@
+.footer{
+    border-top: 2px solid; 
+    border-color: #33333380;
+    border-bottom: 2px solid;
+    margin-left: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer h3{color: white;}
