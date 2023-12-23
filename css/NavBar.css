@@ -10,7 +10,7 @@ nav{  color: white; border-bottom: 1px;border-color: #33333380;border-style: sol
     text-align: center;
     margin-right:100% ;
 }
-
+nav img {margin-left: 10px;}
   .flex-container img {
     inline-size: 10%; 
 }
