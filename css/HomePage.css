@@ -279,9 +279,7 @@ body {
   height: 128px;
   width: 128px;
   background-color: rgb(255, 123, 0);
-  background-image: url(/img//Events.jpeg);
-  background-size: cover;
-  background-repeat: no-repeat;
+
   z-index: 1;
   position: absolute;
   top: -75px;
