@@ -11,7 +11,6 @@ main h3 {color:white; font-family: Arial, Helvetica, sans-serif;}
 
 .Search{
     --padding: 14px;
-
     width: max-content;
     display: flex;
     align-items: center;
@@ -49,7 +48,6 @@ margin-right: 100px;
 }
 .Slider{
     display: flex;
-    aspect-ratio: 16/ 9;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
@@ -59,9 +57,10 @@ margin-right: 100px;
 .Slider img {
     flex: 1 0 100%;
     scroll-snap-align: start;
-    object-fit: cover;
-    margin-right: 10px;
-    margin-left: 10px;
+    object-fit: fill;
+
+    overflow: hidden;
+
 }
 .slider-nav {
     display: flex;
@@ -91,6 +90,7 @@ opacity: 1;
     display: flex;
 font-family: Arial, Helvetica, sans-serif;
 flex-direction: row;
+aspect-ratio: 16/ 9;
 
 }
 .Catagories-Wrapper{align-items: center;
