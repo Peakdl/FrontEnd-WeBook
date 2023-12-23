@@ -71,6 +71,7 @@
     width: 100%;
     gap: 6px;
     margin-left: 5px;
+    color: white;
   }
   
   .form1 label {
@@ -140,4 +141,4 @@
     }
   }
   
-  
+  .flex .span{color:white}
