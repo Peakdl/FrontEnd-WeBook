@@ -3,8 +3,9 @@ document.getElementById('loginForm').addEventListener('submit', async function(e
 
     const email = document.getElementById('email').value;
     const password = document.getElementById('password').value;
-
+    
     try {
+        console.log("test")
         const response = await fetch('http://localhost:3005/user/login', {
             method: 'POST',
             headers: {
@@ -12,13 +13,13 @@ document.getElementById('loginForm').addEventListener('submit', async function(e
             },
             body: JSON.stringify({ email, password })
         });
-
+        
         const responseData = await response.json();
 
         if (response.ok) {
             alert(responseData.message);
             localStorage.setItem('token', responseData.token); 
-            window.location.href = "/Html/todo.html";
+            window.location.href = "/Html/HomePage.html";
         } else {
             alert(responseData.message);
         }

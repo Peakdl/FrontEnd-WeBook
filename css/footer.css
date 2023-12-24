@@ -1,0 +1,24 @@
+/* Basic styling for the footer */
+footer {
+    background-color: rgb(26,26,26);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+/* Styling for the links */
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #007bff;
+}

@@ -1,21 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Register</title>
-    <link rel="stylesheet" href="../Css/register.css">
-</head>
-<body>
-    <form id="registerForm">
-        <input type="text" id="firstName" placeholder="Frist Name" required>
-        <input type="text" id="lastName" placeholder="Last Name" required>
-        <input type="email" id="email" placeholder="email" required>
-        <input type="password" id="password" placeholder="Password" required>
-        <input type="tel" id="phone" placeholder="phone number" required>
-        <button type="submit">Register</button>
-    </form>
+    <link rel="stylesheet" href="../Css/register.css" />
+  </head>
+  <body>
+    <nav class="NavBar">
+      <ul>
+        <li><img src="/img/Reserify.png" alt="Logo" /></li>
+        <li><a href="/html/HomePage.html">Home</a></li>
+        <li><a href="/html/Register.html">Register</a></li>
+        <li><a href="/html/Login.html">Login</a></li>
+      </ul>
+      <!--This is the nav-->
+    </nav>
 
+    <!--This is the Register button -->
+    <form class="form1" id="registerForm">
+      <p class="title">Register</p>
+      <div class="flex">
+        <label class="one">
+          <input
+            required=""
+            placeholder="Firstname"
+            type="text"
+            class="input"
+            id="firstName"
+          />
+          <span></span>
+        </label>
+
+        <label>
+          <input
+            required=""
+            placeholder="Lastname"
+            type="text"
+            class="input"
+            id="lastName"
+          />
+          <span></span>
+        </label>
+      </div>
+
+      <label>
+        <input
+          required=""
+          placeholder="Email"
+          type="email"
+          class="input"
+          id="email"
+        />
+        <span></span>
+      </label>
+
+      <label>
+        <input
+          required=""
+          placeholder="Password"
+          type="password"
+          class="input"
+          id="password"
+        />
+        <span></span>
+      </label>
+      <label>
+        <input
+          required=""
+          placeholder="Phone"
+          type="number"
+          class="input"
+          id="phone"
+        />
+        <span></span>
+      </label>
+      <button class="submit" type="submit">Submit</button>
+    </form>
     <script src="../Js/register.js"></script>
-</body>
+    <footer>
+      <a href="https://discord.com/">Discord</a>
+      <a href="https://twitter.com/">Twitter</a>
+      <a href="https://www.linkedin.com/">LinkedIn</a>
+      <a href="https://www.instagram.com/">Instagram</a>
+    </footer>
+  </body>
 </html>
