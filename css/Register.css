@@ -13,7 +13,9 @@
     margin-bottom: 500px;
     margin-top: 10px;
     color: white;
+    padding-right: 2%;
   }
+  footer{ position: relative !important;}
   
   .title {
     font-size: 28px;
