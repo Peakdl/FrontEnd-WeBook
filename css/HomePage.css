@@ -169,7 +169,7 @@ body {
   margin: 0 15px 30px;
 
   overflow: hidden;
-  background-image: url(/img/Catagories/Reustaraunts.jpeg);
+  background-image: url(/img/Catagories/Catagories_imgs/Reustaraunts.jpeg);
   border-radius: 28px;
   margin-top: 50px;
   background-position: center;
@@ -180,13 +180,12 @@ body {
 .ag-courses_item2 {
   -ms-flex-preferred-size: calc(33.33333% - 30px);
   flex-basis: calc(33.33333% - 30px);
-
+  background-image: url(/img/Catagories/Catagories_imgs/Dirt_Bike.jpg);
   margin: 0 15px 30px;
   overflow: hidden;
 
   border-radius: 28px;
   margin-top: 50px;
-  background-image: url(/img/Catagories/Experiencies_Formula.jpeg);
   border-radius: 28px;
   margin-top: 50px;
   background-position: center;
@@ -199,7 +198,10 @@ body {
   flex-basis: calc(33.33333% - 30px);
 
   margin: 0 15px 30px;
-
+  background-image: url(/img/Catagories/Catagories_imgs/SHows_Red.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   overflow: hidden;
 
   border-radius: 28px;
@@ -211,7 +213,10 @@ body {
   flex-basis: calc(33.33333% - 30px);
 
   margin: 0 15px 30px;
-
+  background-image: url(/img/Catagories/Catagories_imgs/Shows.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   overflow: hidden;
 
   border-radius: 28px;
@@ -223,7 +228,10 @@ body {
   flex-basis: calc(33.33333% - 30px);
 
   margin: 0 15px 30px;
-
+  background-image: url(/img/Catagories/Catagories_imgs/Hotels.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   overflow: hidden;
 
   border-radius: 28px;
@@ -235,7 +243,10 @@ body {
   flex-basis: calc(33.33333% - 30px);
 
   margin: 0 15px 30px;
-
+  background-image: url(/img/Catagories/Catagories_imgs/Travel.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   overflow: hidden;
 
   border-radius: 28px;

@@ -1,5 +1,10 @@
+*{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-
+nav{    border-bottom: 3px solid rgb(26, 26, 26);
+}
 .Search{
     --padding: 10px;
     width: max-content;
@@ -11,6 +16,7 @@
     color: rgb(255, 255, 255);
     margin-bottom: 10px;
     margin-left: 10px;
+
 }
 .search-input{
 font-size: 16px;
@@ -22,6 +28,7 @@ border: none;
 background: transparent;
 width: 300px;
 margin-right: 100px;
+
 }
 .search-icon{
     background-color: rgb(31, 76, 221);
@@ -29,4 +36,36 @@ margin-right: 100px;
     border-radius: 99999px;
     padding: 1.5px;
 }
-footer{position: absolute;}
+footer{position: absolute;
+}
+
+header{
+    display: flex;
+    color: white;
+    padding-left: 2%;
+    font-size: 3rem;
+    font-weight: bold;
+}
+header {
+    background-image: url(/img/Restaurent_IMGS/Blvd_Backround.jpeg)!important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Side-Nav{
+    width: 35%;
+    height: 75%;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    left: 3%;
+    top: 44%;
+    padding-left:3%;
+    color: white;
+}
+.Catagory-Tab{
+    background-color: rgb(26, 26, 26);
+    display: block;
+    margin-bottom: 130px;
+    color: white;
+}
