@@ -1,5 +1,27 @@
+*{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 
 
+
+
+.main{
+  display: flex;
+}
+
+
+
+
+
+
+
+nav{    border-bottom: 3px solid rgb(26, 26, 26);
+}
 .Search{
     --padding: 10px;
     width: max-content;
@@ -11,6 +33,7 @@
     color: rgb(255, 255, 255);
     margin-bottom: 10px;
     margin-left: 10px;
+
 }
 .search-input{
 font-size: 16px;
@@ -22,6 +45,7 @@ border: none;
 background: transparent;
 width: 300px;
 margin-right: 100px;
+
 }
 .search-icon{
     background-color: rgb(31, 76, 221);
@@ -29,4 +53,163 @@ margin-right: 100px;
     border-radius: 99999px;
     padding: 1.5px;
 }
-footer{position: absolute;}
+
+header{
+    display: flex;
+    color: white;
+    padding-left: 2%;
+    font-size: 3rem;
+    font-weight: bold;
+}
+header {
+    background-image: url(/img/Restaurent_IMGS/Blvd_Backround.jpeg)!important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+html{
+  box-sizing: border-box;
+}
+
+.grid{
+  display: grid;
+  width: 114em;
+  grid-gap: 6rem;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  align-items: start;
+  height: 15%;
+  width: 15%;
+}
+.grid-item{
+  background-color: rgb(20, 20, 20);
+  border-radius: 0.4rem;
+  overflow:hidden;
+  box-shadow: 0 , 3rem, 6rem rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.grid-item:hover{
+transform: translateY(-0.5%);
+box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
+}
+
+
+.card-img{
+  display: block;
+  width: 100%;
+  height: 20rem;
+  object-fit:cover;
+  object-position: bottom;
+}
+
+.card-content{
+  padding: 3rem;
+  color:rgb(255, 255, 255);
+}
+
+.card-header{
+  font-size: 3rem;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+}
+
+
+.card-text{
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.7;
+  color :#3d3d3d;
+  margin-bottom: 2.5rem;
+}
+
+
+.card-btn{
+  display: block;
+  width: 100%;
+  padding :1.5rem;
+  font-size: 2rem;
+  text-align: center;
+  color: rgb(31, 76, 221);
+  background-color: rgb(26, 26, 26);
+  border-radius: 0.4rem;
+  transition: 0.2s;
+  cursor: pointer;
+  letter-spacing: 0.1rem;
+}
+
+
+.card-btn span{
+  margin-left: 1rem;
+  transition: 0.2s;
+}
+
+
+.card-btn:hover,
+.card-btn:active {
+  background-color: #c2cffc;
+}
+
+.card-btn:hover span,
+.card-btn:active span {
+  margin-left: 1.5rem;
+}
+
+
+@media only screen and(max-width: 60em){
+  body{
+    padding: 3rem;
+  }
+  .grid{
+    grid-gap: 3rem;
+  }
+}
+
+
+
+#todoList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: #5a4444;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-header {
+  margin-top: 0;
+}
+
+.card-text {
+  color: #555;
+}
+
+.card-btn {
+  background: #007bff;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+

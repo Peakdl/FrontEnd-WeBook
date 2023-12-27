@@ -1,4 +1,9 @@
-nav{  color: white; border-bottom: 1px;border-color: #33333380;border-style: solid;margin: 0%;
+nav{ color: white;
+    border-bottom: 1px;
+    border-color: #33333380;
+    border-style: solid;
+    padding: 0px;
+    font-size: 30px;
 ;}
 
 .flex-container {
@@ -51,4 +56,5 @@ nav a:hover{
     cursor: pointer;
   }
 main{margin: 20px;}
-nav img{height: 75px; width: auto; }
+nav img{height: 95px;
+    width: auto; }

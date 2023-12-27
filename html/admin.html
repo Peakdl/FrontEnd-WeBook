@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/Admin.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Todo</h1>
+    <button id="logoutButton">Logout</button>
+    <form id="newTodoForm">
+      <input type="text" id="newTodoTitle" placeholder="title" />
+      <input type="text" id="newEventdescription" placeholder="descritpion" />
+      <input type="text" id="newEventlocation" placeholder="location" />
+      <input type="datetime-local" id="newEventstartDate" placeholder="startDate" />
+      <input type="datetime-local" id="newEventendDate" placeholder="endDate" />
+      <input type="text" id="newEventimage" placeholder="image" />
+      <input
+        type="text"
+        id="newEventavalible_ticket"
+        placeholder="Add new todo"
+      />
+      <input type="text" id="newEventprice" placeholder="price" />
+      <input type="text" id="newEventdiscount" placeholder="discount" />
+      <input type="text" id="newEventfinal_price" placeholder="final_price" />
+      <input type="datetime-local" id="newEventdiscount_end" placeholder="discount_end" />
+      <button type="submit">Add Todo</button>
+    </form>
+
+        <ul id="todoList"></ul>
+
+    <script src="../Js/admin.js"></script>
+  </body>
+</html>
