@@ -15,7 +15,7 @@
     color: white;
     padding-right: 2%;
   }
-
+  footer{ position: relative !important;}
   
   .title {
     font-size: 28px;
