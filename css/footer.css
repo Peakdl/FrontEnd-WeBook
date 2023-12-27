@@ -1,24 +1,107 @@
 /* Basic styling for the footer */
 footer {
-    background-color: rgb(26,26,26);
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-    bottom: 0%;
+  background-color: rgb(26, 26, 26);
+  color: #fff;
+  padding: 4px 0;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  bottom: 0%;
 }
 
 /* Styling for the links */
 footer a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 15px;
-    transition: color 0.3s ease;
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  transition: color 0.3s ease;
 }
 
 footer a:hover {
-    color: #007bff;
+  color: #007bff;
+}
+.card {
+  display: inline-flex;
+  height: 70px;
+  width: 270px;
+}
+
+.card svg {
+  position: absolute;
+  display: flex;
+  width: 60%;
+  height: 100%;
+  font-size: 24px;
+  font-weight: 700;
+  opacity: 1;
+  transition: opacity 0.25s;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.card .social-link1,
+.card .social-link2,
+.card .social-link3,
+.card .social-link4 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  color: whitesmoke;
+  font-size: 24px;
+  text-decoration: none;
+  transition: 0.25s;
+  border-radius: 50px;
+}
+
+.card svg {
+  transform: scale(1);
+}
+
+.card .social-link1:hover {
+  background-color: #3e0e9b;
+  animation: bounce_613 0.4s linear;
+}
+
+.card .social-link2:hover {
+  background-color: #000000;
+  animation: bounce_613 0.4s linear;
+}
+
+.card .social-link3:hover {
+  background-color: #0059f7;
+  animation: bounce_613 0.4s linear;
+}
+
+.card .social-link4:hover {
+  background-color: #1d4292;
+  animation: bounce_613 0.4s linear;
+}
+
+@keyframes bounce_613 {
+  40% {
+    transform: scale(1.4);
+  }
+
+  60% {
+    transform: scale(0.8);
+  }
+
+  80% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.copyrights {
+  color: white;
+  position: absolute;
+  left: 48%;
+  bottom: 0%;
 }
